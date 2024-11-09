@@ -7,32 +7,33 @@ problem.classList.add('hidden')
 singUp.classList.add('hidden')
 flow.classList.add('hidden')
 const creatD = document.querySelector('.text-creat-note')
-
+ // 
 function create(){
 
-    creatD.classList.add('hidden')
-
+  creatD.classList.add('hidden')
+   notess.classList.remove('hidden')
 }
-// function singBtn() {
-//     // Assuming `gmail` is the input element (not the value itself)
-//     var emailInput = document.querySelector('.gmail'); // Get the input element
-//     var emailValue = emailInput.value; // Get the value of the input
-//     var passWord = document.querySelector('.pass')
-//     var passValue = passWord.value
 
-//     // Check if the email value matches
-//     if (emailValue === 'largofakhrddin@gmail.com' && passValue === '123456789') {
-//         flow.classList.add('hidden')
-//         singUp.classList.add('hidden')
-//     } else {
-//         problem.classList.remove('hidden')
-//     }
+/*
+ function singBtn() {
+     // Assuming `gmail` is the input element (not the value itself)
+     var emailInput = document.querySelector('.gmail'); // Get the input element     var emailValue = emailInput.value; // Get the value of the input
+     var passWord = document.querySelector('.pass')
+     var passValue = passWord.value
+
+     // Check if the email value matches
+     if (emailValue === 'largofakhrddin@gmail.com' && passValue === '123456789') {
+         flow.classList.add('hidden')
+         singUp.classList.add('hidden')
+     } else {
+         problem.classList.remove('hidden')
+     }
     
    
     
 
-// }
-
+}
+*/
 
 
 
@@ -51,7 +52,8 @@ const note9 =document.querySelector('.note9')
 const note10 =document.querySelector('.note10')
 
 // add hidden for notess
-note1.classList.add('hidden')
+
+/*note1.classList.add('hidden')*/
 note2.classList.add('hidden')
 note3.classList.add('hidden')
 note4.classList.add('hidden')
@@ -61,3 +63,18 @@ note7.classList.add('hidden')
 note8.classList.add('hidden')
 note9.classList.add('hidden')
 note10.classList.add('hidden')
+
+
+
+
+
+// note 1
+
+const notess = document.querySelector('.notess')
+const remove = document.querySelector('.remove')
+
+function btnOpen(){
+notess.classList.add('hidden')
+remove.classList.remove('hidden')
+
+}

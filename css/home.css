@@ -28,7 +28,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    
+    font-size: 12px;
 }
 
 .box-head{
@@ -63,10 +63,9 @@ border-right: 1px solid rgba(188, 188, 188, 0.146);
 .box-notes{
 background-color: aliceblue;
     width: 90%;
-    height: 88vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100vh;
+    position: relative;
+  
 }
 /* imgs */
 .profil-img{
@@ -119,9 +118,15 @@ width: 30%;
 .all-notes .notess{
     background-color: white;
     width: 200px;
-    height: 200px;
+    height: 200px; 
     border-radius: 5px;
-    box-shadow:0px 0px  5px 1px rgba(191, 189, 189, 0.203) ;
+    box-shadow: 0px 0px  5px 1px rgba(191, 189, 189, 0.203) ;
+} 
+.created{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 /* FOR TITLES */
 .title-sing{
@@ -294,3 +299,106 @@ border-radius: 8px;
 .hidden{
     display: none;
 }
+
+/* CONTENT NOTES */
+/* note1 */
+.note1{
+ 
+color: black;
+
+
+}
+.note1 .inputs{
+    
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px  5px 1px rgba(191, 189, 189, 0.203) ;
+}
+.note1 input{
+    outline: none;
+    font-size:16px ;
+    display: block;
+    width: 68rem;
+    padding-top: 15px;
+    border: none;
+    border-bottom: 1px solid rgba(155, 155, 155, 0.521);
+    
+}
+.titleInput{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.btnAdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    background: linear-gradient(to right bottom , rgba(255, 255, 255, 0.393) , rgba(160, 160, 160, 0.479));
+
+   text-decoration: underline 0.5px;
+   clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+   
+    
+
+
+}
+.content-1{
+
+    width: 70rem;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: end;
+    padding: 10px;
+    gap: 5px;
+    
+}
+
+/* not -content */
+.head-not{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.head-not .open-not{
+padding: 5px 10px;
+clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+background: linear-gradient(to right bottom , rgba(255, 255, 255, 0.393) , rgba(160, 160, 160, 0.479));
+
+}
+.content-not{
+
+    height: 140px;
+
+padding: 10px;
+}
+.content-not .title-box{
+    font-size: 18px;
+}
+.content-not ul li{
+    margin: 20px;
+    line-height: 0.8;
+}
+/* note2 */
+
+
+
+/* .note2
+
+.note3
+.note4
+.note5
+.note6
+.note7
+.note8
+.note9
+.note10 */

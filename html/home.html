@@ -9,10 +9,13 @@
       rel="stylesheet"
     />
     <!-- font 2  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-     <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="/css/home.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,67 +24,161 @@
   <body>
     <header class="box-head">
       <nav class="links">
-        <button class="home  btns"><a href="/html/home.html">Home</a></button>
-        <button class="academy  btns"><a href="/">Academy</a></button>
-        <button class="chatgpt  btns"><a href="/">ChatGPT</a></button>
+        <button class="home btns"><a href="/html/home.html">Home</a></button>
+        <button class="academy btns"><a href="/">Academy</a></button>
+        <button class="chatgpt btns"><a href="/">ChatGPT</a></button>
       </nav>
       <section class="search">
-        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" height="17px" viewBox="0 -960 960 960" width="17px" fill="gray"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
-        <input class="searching" type="search" placeholder="      Search"  onclick="search()">
+        <svg
+          class="search-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          height="17px"
+          viewBox="0 -960 960 960"
+          width="17px"
+          fill="gray"
+        >
+          <path
+            d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+          />
+        </svg>
+        <input
+          class="searching"
+          type="search"
+          placeholder="      Search"
+          onclick="search()"
+        />
       </section>
       <section class="profil">
-        <img class="profil-img" src="/imgs/Screenshot_20240508_001820.jpg" alt="profil">
+        <img
+          class="profil-img"
+          src="/imgs/Screenshot_20240508_001820.jpg"
+          alt="profil"
+        />
         <p class="name">Fakhreddine_Largou</p>
-    </section>
+      </section>
     </header>
 
     <main class="box-main">
       <nav class="box-style">
-        <button class="creat-note btns-style"><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px" fill="black"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg> Creat</button>
-    <button class="font-family btns-style">Font</button>
-    <button class="colors btns-style">Color</button>
-    <button class="example btns-style">Example</button>
-    <button class="example btns-style">Example</button>
-    <button class="example btns-style">Example</button>
-    
-    </nav>
+        <button class="creat-note btns-style">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="15px"
+            viewBox="0 -960 960 960"
+            width="15px"
+            fill="black"
+          >
+            <path
+              d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"
+            />
+          </svg>
+          Creat
+        </button>
+        <button class="font-family btns-style">Font</button>
+        <button class="colors btns-style">Color</button>
+        <button class="example btns-style">Example</button>
+        <button class="example btns-style">Example</button>
+        <button class="example btns-style">Example</button>
+      </nav>
       <section class="box-notes">
-<!-- 
         <section class="all-notes">
-            <section class="note1 notess"></section>
-            <section class="note2 notess"></section>
-            <section class="note3 notess"></section>
-            <section class="note4 notess"></section>
-            <section class="note5 notess"></section>
-            <section class="note6 notess"></section>
-            <section class="note7 notess"></section>
-            <section class="note8 notess"></section>
-            <section class="note9 notess"></section>
-            <section class="note10 notess"></section>
-           
-        </section> -->
-
-
-
-
-
+          <section class="note1 content-note">
+            <section class="notess hidden ">
+              <div class="head-not">
+                <button class="open-not" onclick="btnOpen()">Open</button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20px"
+                  viewBox="0 -960 960 960"
+                  width="20px"
+                  fill="#5f6380"
+                >
+                  <path
+                    d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"
+                  />
+                </svg>
+              </div>
+              <div class="content-not">
+                <h1 class="title-box">FAKHRDDINE LARGO</h1>
+                <ul>
+                  <li>Your Content</li>
+                  <li>Number Lines</li>
+                  <li>Time 1h</li>
+                </ul>
+              </div>
+            </section>
+            <section class="remove hidden">
+              <section class="content-1">
+                <button class="btnAdd">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="15px"
+                    viewBox="0 -960 960 960"
+                    width="15px"
+                    fill="black"
+                  >
+                    <path
+                      d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"
+                    />
+                  </svg>
+                  ADD
+                </button>
+                <section class="inputs">
+                  <input type="text" class="titleInput" />
+                  <input type="text" />
+                  <input type="text" />
+                  <input type="text" />
+                  <input type="text" />
+                  <input type="text" />
+                  <input type="text" />
+                  <input type="text" />
+                  <input type="text" />
+                  <input type="text" />
+                  <input type="text" />
+                  <input type="text" />
+                </section>
+              </section>
+            </section>
+          </section>
+          <section class="note2 notess"></section>
+          <section class="note3 notess"></section>
+          <section class="note4 notess"></section>
+          <section class="note5 notess"></section>
+          <section class="note6 notess"></section>
+          <section class="note7 notess"></section>
+          <section class="note8 notess"></section>
+          <section class="note9 notess"></section>
+          <section class="note10 notess"></section>
+        </section>
 
         <section class="created">
-            <p class="text-creat-note" onclick="create()"><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px" fill="rgb(161, 161, 161)"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>Creating note</p>
+          <p class="text-creat-note" onclick="create()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="15px"
+              viewBox="0 -960 960 960"
+              width="15px"
+              fill="rgb(161, 161, 161)"
+            >
+              <path
+                d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"
+              /></svg
+            >Creating note
+          </p>
         </section>
+        <section class="info-note"></section>
       </section>
-          <section class="singUp">
+      <section class="singUp">
         <h1 class="title-sing">Sing up</h1>
         <label for="email"><span>*</span>Email</label>
-        <input type="email" name="Email" class="singIn gmail">
+        <input type="email" name="Email" class="singIn gmail" />
         <label for="password"><span>*</span>password</label>
-        <input type="password" name="password"  class="singIn pass">
-        <button class="btnSing" onclick="singBtn()" >SING UP</button>
+        <input type="password" name="password" class="singIn pass" />
+        <button class="btnSing" onclick="singBtn()">SING UP</button>
         <p class="problem">!Please check your email or password</p>
-    </section>
-    
+      </section>
     </main>
-<div class="flow"></div>
-<script src="/javascript/home.js"></script>
+    <div class="flow"></div>
+    <script src="/javascript/home.js"></script>
   </body>
 </html>
