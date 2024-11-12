@@ -15,7 +15,24 @@
       href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-    <!--  -->
+    <!-- font3  -->
+     
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+     <!-- font4 -->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+      <!-- font5 -->
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+       <!--  -->
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="/home.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -60,7 +77,7 @@
 
     <main class="box-main">
       <nav class="box-style">
-        <button class="creat-note btns-style">
+        <button class="creat-note btns-style" onclick="create()">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="15px"
@@ -74,48 +91,75 @@
           </svg>
           Creat
         </button>
-        <button class="font-family btns-style">Font</button>
+        <button class="font-family btns-style" onclick="font()">Font</button>
         <button class="colors btns-style">Color</button>
         <button class="example btns-style">Example</button>
         <button class="example btns-style">Example</button>
         <button class="example btns-style">Example</button>
+        <div class="fontss hidden">
+          <p class="font-f1" onclick="f1()">Example</p>
+          <p class="font-f2" onclick="f2()">Example</p>
+          <p class="font-f3" onclick="f3()">Example</p>
+        </div>
       </nav>
       <section class="box-notes">
+        <button class="add-posi-ab" onclick="addcontent()">Add</button>
         <section class="all-notes">
-          
-<!-- note1 -->
-         <section class="note-box1 ">
+          <!-- note1 -->
+          <section class="note-box1">
             <div class="info-box width-for-info-box">
-             <div class="head-info-box">
-              <button class="button-for-open" onclick="btnOpen()">open</button>
-              <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="rgb(215, 214, 212)"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg>
-             </div>
-             <div class="name-info">
-              <h2 class="title-for-head"></h2>
-             <ul class="ul-for-head">
-              <li>For Exams</li>
-              <li>3h For my project</li>
-              <li>Information about Exams</li>
-              <li>Example For Work</li>
-              <li>Example For school</li>
-              <li>Example For house</li>
-             
-             </ul>
-            
-            </div>
+              <div class="head-info-box">
+                <button class="button-for-open" onclick="btnOpen()">
+                  open
+                </button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="18px"
+                  viewBox="0 -960 960 960"
+                  width="18px"
+                  fill="rgb(215, 214, 212)"
+                >
+                  <path
+                    d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"
+                  />
+                </svg>
+              </div>
+              <div class="name-info">
+                <h2 class="title-for-head"></h2>
+                <ul class="ul-for-head">
+                  <li class="li-for-info1">For Exams</li>
+                  <li class="li-for-info2">3h For my project</li>
+                  <li class="li-for-info3">Information about Exams</li>
+                </ul>
+              </div>
             </div>
             <div class="reading-box hidden">
-              <button class="button-for-back" onclick="goback()">Go Back</button>
-        
+              <div class="positision-content">
+                <button class="button-for-back" onclick="goback()">
+                  Go Back
+                </button>
+                <div class="texts-input ">
+                  <input type="text" class="inpf1"/>
+                  <input type="text" class="inpf2"/>
+                  <input type="text" class="inpf3"/>
+                  <input type="text" class="inpf4"/>
+                  <input type="text" class="inpf5"/>
+                  <input type="text" class="inpf6"/>
+                  <input type="text" class="inpf7"/>
+                  <input type="text" class="inpf8"/>
+                  <input type="text" class="inpf9"/>
+                  <input type="text" class="inpf10"/>
+                  <input type="text" class="inpf11"/>
+                  <input type="text" class="inpf12"/>
+                </div>
+              </div>
             </div>
           </section>
-     <!-- note2 -->
+          <!-- note2 -->
 
+          <!-- note3 -->
 
-
-      <!-- note3 -->
-
-       <!-- note4 -->
+          <!-- note4 -->
         </section>
 
         <section class="created">
@@ -129,27 +173,48 @@
             >
               <path
                 d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"
-              /></svg>Creating note
+              /></svg
+            >Creating note
           </p>
         </section>
         <section class="info-note"></section>
       </section>
       <!-- created -->
-       <section class="all-box">
-      <section class="info-for-created-note">
-        <h1 class="title-created">Please Enter your information.</h1>
-        <section class="input-created">
-          <label for="text" ><span>*</span>Name</label>
-          <input type="text" name="text" placeholder="name" id="input-for-name">
-          <label for="text"><span>*</span>Project</label>
-          <input type="text" placeholder="project" >
-          <input type="text" placeholder="commanter">
-          <input type="text" placeholder="commanter">
-         <button class="btn-for-add" onclick="addtitle()">Create</button>
-
+      <section class="all-box">
+        <section class="info-for-created-note">
+          <h1 class="title-created">Please Enter your information.</h1>
+          <section class="input-created">
+            <label for="text"><span>*</span>Name</label>
+            <input
+              type="text"
+              name="text"
+              placeholder="name"
+              id="input-for-name"
+            />
+            <label for="text"><span>*</span>Project</label>
+            <input
+              type="text"
+              placeholder="comment"
+              class="input-ntg"
+              id="input-info1"
+            />
+            <input
+              type="text"
+              placeholder="comment"
+              class="input-ntg"
+              id="input-info2"
+            />
+            <input
+              type="text"
+              placeholder="comment"
+              class="input-ntg"
+              id="input-info3"
+            />
+            <button class="btn-for-add" onclick="addtitle()">Create</button>
+            <p class="pro-info" color="red">!Please Enter all information</p>
+          </section>
         </section>
       </section>
-    </section>
       <!-- finish created -->
       <section class="singUp">
         <h1 class="title-sing">Sing up</h1>
