@@ -4,8 +4,8 @@ const gmail = document.querySelector('.gmail')
 const password = document.querySelector('.pass')
 const problem = document.querySelector('.problem')
 
-//singUp.classList.add('hidden')
-//flow.classList.add('hidden')
+singUp.classList.add('hidden')
+flow.classList.add('hidden')
 const creatD = document.querySelector('.text-creat-note')
  // 
 function create(){
@@ -76,7 +76,7 @@ const widthinfo = document.querySelector('.width-for-info-box')
 const widthreading = document.querySelector('.width-for-reading-box')
 const addPo =document.querySelector('.add-posi-ab')
 noteBox1.classList.add('hidden')
-addPo.classList.add('hidden')
+//addPo.classList.add('hidden')
 infoBox.classList.add('hidden')
 //readingBox.classList.remove('hidden')
 
@@ -85,7 +85,7 @@ function btnOpen(){
 readingBox.classList.add('width-for-reading-box')
 noteBox1.classList.add('width-for-reading-box')
 infoBox.classList.add('hidden')
-addPo.classList.remove('hidden')
+//addPo.classList.remove('hidden')
 
 }
 function goback(){
@@ -94,7 +94,7 @@ infoBox.classList.add('width-for-info-box')
     readingBox.classList.add('hidden')
     infoBox.classList.remove('hidden')
     noteBox1.classList.remove('width-for-reading-box')
-    addPo.classList.add('hidden')
+    //addPo.classList.add('hidden')
 }
 
 
@@ -164,36 +164,46 @@ function addcontent(){
         addPo.classList.add('hidden')
 }
 
-const fontss = document.querySelector('.fontss')
-const inp1 =document.querySelector('.inpf1')
+// const fontss = document.querySelector('.fontss')
+// const inp1 =document.querySelector('.inpf1')
+// const removeBTn = document.querySelector('.remov')
+// const fint1 =document.querySelector('.font-f1')
+// const fint2 =document.querySelector('.font-f2')
+// const fint3 =document.querySelector('.font-f3')
 
-const fint1 =document.querySelector('.font-f1')
-const fint2 =document.querySelector('.font-f2')
-const fint3 =document.querySelector('.font-f3')
-function font(){
+// // remove
+// function removeBtn(){
+//     removeBTn.classList.toggle('hidden')
+// fontss.classList.toggle('hidden')
+// flow.classList.toggle('hidden')
+// }
+
+// function font(){
+
+// removeBTn.classList.remove('hidden')
+// fontss.classList.toggle('hidden')
+// flow.classList.toggle('hidden')
+
+// }
+// removeBTn.classList.add('hidden')
 
 
-fontss.classList.toggle('hidden')
-}
+// function f1(){
+// inp1.classList.add('font-f1')
+// fontss.classList.add('hidden')
+// textFont.classList.remove('font-f2')
+// textFont.classList.remove('font-f3')
+// }
 
-
-
-function f1(){
-inp1.classList.add('font-f1')
-fontss.classList.add('hidden')
-textFont.classList.remove('font-f2')
-textFont.classList.remove('font-f3')
-}
-
-function f2(){
-    inp1.classList.add('font-f2')
-fontss.classList.add('hidden')
-textFont.classList.remove('font-f3')
-textFont.classList.remove('font-f1')
-}
-function f3(){
-    inp1.classList.add('font-f3')
-fontss.classList.add('hidden')
-textFont.classList.remove('font-f1')
-textFont.classList.remove('font-f2')
-}
+// function f2(){
+//     inp1.classList.add('font-f2')
+// fontss.classList.add('hidden')
+// textFont.classList.remove('font-f1')
+// }
+// function f3(){
+//     inp1.classList.add('font-f3')
+// fontss.classList.add('hidden')
+// textFont.classList.remove('font-f1')
+// textFont.classList.remove('font-f2')
+// }t.remove('font-f3')
+// textFont.classLis
