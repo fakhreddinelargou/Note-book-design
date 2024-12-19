@@ -64,7 +64,7 @@ justify-content: center;
 align-items: center;
 gap: 8rem;
 }
-.head p{
+.head .title{
     text-transform: uppercase;
 font-size: 2rem;
 width: 30%;
@@ -355,4 +355,8 @@ gap: 2px;
     body{
        display: none;
     }
+}
+
+.hidden1{
+    display: none;
 }

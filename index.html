@@ -16,16 +16,18 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
+
     <!--  -->
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/hidden.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ARCHITECTURE</title>
   </head>
   <body>
     <main class="allContent">
       <header class="head">
-        <p>destinataire <sup class="subArch">ARCHITECTURE.</sup></p>
+        <p class="title">destinataire <sup class="subArch">ARCHITECTURE.</sup></p>
         <nav>
           <ul style="list-style: none; display: flex">
             <li><a href="/">About Me</a></li>
@@ -33,9 +35,9 @@
             <li><a href="/">Contact</a></li>
           </ul>
         </nav>
-
-        <button>
-          <a href="/" class="login">
+ <div class="login-user " >
+        <button >
+          <a href="/htmls/login.html" class="login">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -53,6 +55,14 @@
             Login
           </a>
         </button>
+      </div>
+      <section class="profils ">
+        <article  style=" width: 11rem; display: flex;
+        align-items: center; gap: 9px;">
+          <img src="/imgs/profil.jpg" alt="profil" width="35px" style="border-radius: 50%;">
+          <p class="user-name" style="font-size: 13px;"></p>
+        </article>
+      </section>
       </header>
       <section class="articles">
         <section class="art1 arts">
@@ -157,7 +167,7 @@
               with clients and construction teams to bring designs to life.
             </p>
           </article>
-          <button>
+           <button>
             <a href="/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -190,5 +200,6 @@
     <article><img src="/imgs/ai-high-resolution-logo-transparent.png" alt="AI"></article>
 </section>
     <article class="backgroundColor"></article>
+    <script src="/jss/login.js"></script>
   </body>
 </html>
