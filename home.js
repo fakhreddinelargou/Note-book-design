@@ -4,8 +4,8 @@ const gmail = document.querySelector('.gmail')
 const password = document.querySelector('.pass')
 const problem = document.querySelector('.problem')
 
-singUp.classList.add('hidden')
-flow.classList.add('hidden')
+//singUp.classList.add('hidden')
+//flow.classList.add('hidden')
 const creatD = document.querySelector('.text-creat-note')
  // 
 function create(){
